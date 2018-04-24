@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Perdekop.AdventOfCode2015.D
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Perdekop.AdventOfCode2015.Day01.Tests", "Perdekop.AdventOfCode2015.Day01.Tests\Perdekop.AdventOfCode2015.Day01.Tests.csproj", "{6532938C-2D28-420B-90CC-AAF1BFF09A60}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Perdekop.AdventOfCode2015.Shared", "Perdekop.AdventOfCode2015.Shared\Perdekop.AdventOfCode2015.Shared.csproj", "{7EE19B23-91B5-48A1-A4B4-4A9B16CFE127}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,8 +29,15 @@ Global
 		{6532938C-2D28-420B-90CC-AAF1BFF09A60}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6532938C-2D28-420B-90CC-AAF1BFF09A60}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6532938C-2D28-420B-90CC-AAF1BFF09A60}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7EE19B23-91B5-48A1-A4B4-4A9B16CFE127}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EE19B23-91B5-48A1-A4B4-4A9B16CFE127}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EE19B23-91B5-48A1-A4B4-4A9B16CFE127}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EE19B23-91B5-48A1-A4B4-4A9B16CFE127}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {29B0D86D-16B0-480D-8861-11B2DF1408A1}
 	EndGlobalSection
 EndGlobal
