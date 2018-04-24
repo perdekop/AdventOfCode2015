@@ -47,6 +47,7 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FloorFinderFactoryTests.cs" />
     <Compile Include="NaiveFloorFinderTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SmarterFloorFinderTests.cs" />

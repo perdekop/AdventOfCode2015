@@ -1,4 +1,5 @@
 ﻿using Perdekop.AdventOfCode2015.Shared;
+using System;
 
 namespace Perdekop.AdventOfCode2015.Day01
 {
@@ -6,7 +7,12 @@ namespace Perdekop.AdventOfCode2015.Day01
     {
         public static IFloorFinder CreateFloorFinder(ImplementationType type)
         {
-            throw new System.NotImplementedException();
+            switch (type)
+            {
+                case ImplementationType.Naive: return new NaiveFloorFinder();
+                case ImplementationType.Smarter: return new SmarterFloorFinder();
+                default: throw new ArgumentException("Unknown implementation type!");
+            }
         }
     }
 }
